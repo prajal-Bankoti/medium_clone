@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+.yourStories {
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+  grid-gap: 470px;
+  height: 100px;
+  width: 100%;
+  /* border: 2px solid black; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.story1 {
+  height: 35px;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+.story2 {
+  height: 35px;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: white;
+  /* border: 1px solid green; */
+}
+
+.drafts {
+  display: grid;
+  grid-template-columns: repeat(3, 9%);
+  height: 40px;
+  width: 85%;
+  margin-left: 80px;
+  /* border: 2px solid black; */
+  border-bottom: 1px solid gray;
+  align-items: center;
+}
+
+.draftbuttons {
+  height: 35px;
+  width: 100px;
+  font-size: 12px;
+  border: none;
+  background-color: white;
+  padding-bottom: 38px;
+  /*border-bottom: 2px solid black; */
+  color: gray;
+}
+/* .draftbuttons:focus {
+  border-bottom: 2px solid black;
+} */

@@ -1,0 +1,45 @@
+.blogs {
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+  text-align: left;
+  padding-left: 10%;
+  width:94%;
+  margin:auto;
+  text-decoration: white;
+  margin-top: 16px;
+}
+
+.blogs h1{
+  text-decoration: none;
+  margin-top: 10px;
+  
+}
+.blogs div{
+  text-decoration: none;
+  margin-top: 5px;
+  
+ 
+}
+.blogs p{
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(77, 74, 74);
+  margin-top: 10px;
+  float: left;
+  width: 70px;
+  
+}
+
+.blogs img{
+ width: 20px;
+ height:100%;
+ float: left;
+ margin-left: -160px;
+
+}
+.blogs:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+

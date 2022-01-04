@@ -1,0 +1,58 @@
+.navbar_2_r span {
+  margin: 1.1%;
+  float: right;
+  font-size: 13px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight: 500;
+  cursor: pointer;
+  color: rgb(41, 40, 40);
+}
+.navbar_2 {
+  height: 68px;
+  width: 100%;
+  position: fixed;
+  
+  background-color: rgb(196, 226, 255);
+  border-bottom: 1px rgb(22, 22, 22) solid;
+}
+.navbar_2_r span:nth-child(1) {
+  color: white;
+  margin-right: 8%;
+  height: 26px;
+  margin-top: 1.3%;
+  padding-left: 1.3%;
+  padding-right: 1.3%;
+  padding-top: 9px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 40px;
+}
+.navbar_2_l img {
+  float: left;
+  margin: 1.7% 8%;
+  cursor: pointer;
+  width: 11%;
+}
+
+@media screen and (max-width: 480px) {
+
+     .navbar_2_r span{
+        display: none;
+     }
+     .navbar_2_l img{
+       width: 140px;
+       margin-top: 20px;
+     }
+     #get_started{
+         display: block;
+         margin-top: 20px;
+         width: 25%;
+     }
+     .navbar_2{
+         position: fixed;
+     }
+     
+ 
+}
